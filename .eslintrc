@@ -1,0 +1,52 @@
+parser: babel-eslint
+
+env:
+  node: true
+  browser: true
+
+rules:
+  array-bracket-spacing:
+    - 2
+    - "always"
+    -
+      singleValue: true
+      objectsInArrays: false
+      arraysInArrays: false
+
+  comma-spacing:
+    - 2
+    -
+      before: false
+      after: true
+
+  indent: [ 2, 2 ]
+  key-spacing:
+    - 2
+    -
+      beforeColon: false
+      afterColon: true
+
+  no-mixed-spaces-and-tabs: 2
+  no-multi-spaces: 2
+  no-multiple-empty-lines:
+    - 2
+    -
+      max: 1
+
+  no-unneeded-ternary: 2
+  no-unexpected-multiline: 2
+  no-unused-vars: 2
+  no-undef: 2
+  object-curly-spacing:
+    - 2
+    - "always"
+    -
+      objectsInObjects: false
+      arraysInObjects: false
+
+  quotes: [ 2, "single" ]
+  semi: [ 2, "never" ]
+  space-after-keywords: [ 2, "always" ]
+  space-before-blocks: [ 2, "always" ]
+  space-in-parens: [ 2, "never" ]
+  strict: [ 2, "never" ]
